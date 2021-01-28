@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+
+
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+h1 {
+    font-family: 'Hanalei', cursive;
+    letter-spacing: 10px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: solid black;
+}
+
+.grid {
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.mole {
+    background-image: url(mole.jpg);
+    background-size: cover;
+}
