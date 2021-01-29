@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    background-color: chartreuse;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    /*letter-spacing: 10px;*/
+    line-height: 15px;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.text {
+    margin: 40px;
+    border: 2px solid black;
+    
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 2rem;
+    background-color: chartreuse;
+    outline: none;
+}
