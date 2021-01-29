@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 700px;
+    background-color: aquamarine;
+
+}
+
+.grid div {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin:0px 10px;
+}
+
+.playerX {
+    background-image: url('cross.png');
+    background-size: 150px;
+}
+  
+.playerO {
+    background-image: url('circle.png');
+    background-size: 150px;
+    
+}
